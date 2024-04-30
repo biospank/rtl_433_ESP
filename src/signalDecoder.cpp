@@ -327,7 +327,7 @@ void rtlSetup() {
     // end of fragment
 
 #else
-    memcpy(&cfg->devices[9], &akhan_100F14, sizeof(r_device));
+    memcpy(&cfg->devices[0], &akhan_100F14, sizeof(r_device));
 #endif
 
 #ifdef RTL_FLEX
