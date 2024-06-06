@@ -256,8 +256,9 @@
  */
 #  define DEVICES         \
     DECL(akhan_100F14)               \
+    DECL(smoke_gs558)                \
 /* Add new personal decoders here. */
-#  define NUMOF_OOK_DEVICES 1
+#  define NUMOF_OOK_DEVICES 2
 #  define NUMOF_FSK_DEVICES 0
 #endif
 
