@@ -328,7 +328,7 @@ void rtlSetup() {
 
 #else
     memcpy(&cfg->devices[0], &akhan_100F14, sizeof(r_device));
-    memcpy(&cfg->devices[128], &smoke_gs558, sizeof(r_device));
+    memcpy(&cfg->devices[1], &smoke_gs558, sizeof(r_device));
 #endif
 
 #ifdef RTL_FLEX
