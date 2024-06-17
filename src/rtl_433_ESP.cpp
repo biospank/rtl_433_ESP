@@ -563,7 +563,7 @@ void rtl_433_ESP::rtl_433_ReceiverTask(void* pvParameters) {
           receiveMode = true;
           signalStart = micros();
 #ifdef ONBOARD_LED
-          digitalWrite(ONBOARD_LED, HIGH);
+          // digitalWrite(ONBOARD_LED, HIGH);
 #endif
           signalRssi = currentRssi;
           _lastChange = micros();
@@ -605,7 +605,7 @@ void rtl_433_ESP::rtl_433_ReceiverTask(void* pvParameters) {
         if (receiveMode) // Complete reception of a signal
         {
 #ifdef ONBOARD_LED
-          digitalWrite(ONBOARD_LED, LOW);
+          // digitalWrite(ONBOARD_LED, LOW);
 #endif
           receiveMode = false;
           totalSignals++;

@@ -99,7 +99,7 @@ void setup()
 void loop()
 {
   ELECHOUSE_cc1101.SetTx();
-  digitalWrite(ONBOARD_LED, HIGH);
+  // digitalWrite(ONBOARD_LED, HIGH);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
@@ -117,7 +117,7 @@ void loop()
   Serial.print("len: ");
   Serial.println(len);
   ELECHOUSE_cc1101.SetRx();
-  digitalWrite(ONBOARD_LED, LOW);
+  // digitalWrite(ONBOARD_LED, LOW);
   delay(1000); // 15 seconds
   /*   if (Serial.available())
   {
